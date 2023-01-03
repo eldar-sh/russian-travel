@@ -1,0 +1,30 @@
+.cover {
+    background-image: url(../../images/cover__background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1184px;
+    height: 740px;
+    margin: 0 auto;
+    margin-top: 92px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        height: 480px;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 200px;
+        margin-top: 66px;
+    }
+}
