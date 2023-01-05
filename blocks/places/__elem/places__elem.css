@@ -1,0 +1,27 @@
+.places__elem {
+    list-style-type: none;
+    margin-top: 92px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__elem {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__elem {
+        margin-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .places__elem {
+        margin-top: 64px;
+        padding: 0;
+    }
+}
