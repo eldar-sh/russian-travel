@@ -2,15 +2,10 @@
     max-width: 484px;
 }
 
-@media screen and (max-width: 768px) {
-    .place__paragraph-container {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
     .place__paragraph-container {
         padding-left: 16px;
         padding-right: 16px;
+        max-width: 100%;
     }
 }
